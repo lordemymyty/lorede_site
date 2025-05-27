@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Faixa superior */
+.label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.im {
+  width: 100%;
+  height: 80px;
+  background-image: url("img/ico/lorde.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video {
+  position: absolute;
+  top: 160px;
+}
+
+.descrisao {
+  color: bisque;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 700px;
+  top: 270px;
+}
+
+.produtos {
+  position: absolute;
+  top: 600px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.corpo {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: aqua;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: aqua;
+  text-align: center;
+}
+
+.baixo {
+  position: relative;
+  top: 500px;
+  left: -400px;
+}
+.lado-a-lado {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.vipes, .pc {
+  
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.vipes img, .pc img {
+  width: 60px;
+  height: auto;
+}
+.eu{
+    width: 500px;
+  display: flex;
+  position:absolute;
+  top: 40px;
+  left: 1250px;
+  background-color:black;
+}
+p{
+  color: bisque;
+}
